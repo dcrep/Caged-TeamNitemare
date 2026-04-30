@@ -10,3 +10,5 @@ Members:
 For class GDEV-290 Advanced Game Design, professor William Crosbie
 
 Source is at https://github.com/2026-01-GDEV290/2026-01-final-urp-teamnitemare/tree/PlayableTest
+
+[SOON] Playable on web at https://dcrep.github.io/Caged-TeamNitemare/
