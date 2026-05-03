@@ -6,14 +6,6 @@
     <title>Unity Web Player | Caged</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <style>
-      #description {
-        max-width: 800px;
-        margin: 20px auto;   /* centers the block */
-        padding: 0 20px;
-        text-align: left;    /* keeps inner text left-aligned */
-      }
-    </style>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -30,12 +22,6 @@
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">Caged</div>
       </div>
-    </div>
-    <div id="description">
-      <h1 style="text-align:center;">Caged</h1>
-      <p style="text-align:center;">by Team Nitemare</p>
-      <p>Advanced Game Design final project RC</p>
-      <p>Source at <a href="https://github.com/dcrep/Caged-TeamNitemare">https://github.com/dcrep/Caged-TeamNitemare/</a></p>
     </div>
     <script>
       var canvas = document.querySelector("#unity-canvas");
@@ -66,12 +52,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Caged-build.loader.js";
+      var loaderUrl = buildUrl + "/Caged-buildww.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/Caged-build.data.unityweb",
-        frameworkUrl: buildUrl + "/Caged-build.framework.js.unityweb",
-        codeUrl: buildUrl + "/Caged-build.wasm.unityweb",
+        dataUrl: buildUrl + "/Caged-buildww.data.unityweb",
+        frameworkUrl: buildUrl + "/Caged-buildww.framework.js.unityweb",
+        codeUrl: buildUrl + "/Caged-buildww.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Team Nitemare",
         productName: "Caged",
