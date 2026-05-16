@@ -9,7 +9,11 @@ Members:
 
 For class GDEV-290 Advanced Game Design, professor William Crosbie
 
-Source is at https://github.com/2026-01-GDEV290/2026-01-final-urp-teamnitemare/tree/PlayableTest
+Source for build is at https://github.com/dcrep/teamnitemare-caged-RC/tree/PlayableTest
+(previously @ https://github.com/2026-01-GDEV290/2026-01-final-urp-teamnitemare/tree/PlayableTest)
+
+New in-development version at https://github.com/dcrep/team-nitemare-caged
+(LFS issues with forking forced this migration)
 
 Windows build at https://ashesnbones.itch.io/caged
 
